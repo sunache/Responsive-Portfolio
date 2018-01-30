@@ -1,0 +1,388 @@
+#background {
+	width: 960px;
+
+}
+#profilepic 
+{
+	padding-top: 10px;
+	width: 250px;
+	height: 300px;
+	float: left;
+	margin-right: 20px;
+
+}
+#profilename
+{
+	float:left;
+	font-size:30px;
+	color: #73A1BD;
+	text-align: center;
+	padding:10px;
+	background-color: white;
+	margin-left: 5px;
+}
+.nav {
+	padding:14px 16px;
+	background-color:white;
+	font-size:30px;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+	display: inline;
+}
+a:hover {
+	color:gray;
+}
+a { 
+	text-decoration: none;
+	color: #73A1BD;
+
+}
+.section {
+	border: solid red;
+	padding: 30px;
+}
+
+.aboutme {
+	width: 600px;
+	height: 480px;
+	overflow: hidden;
+	float: left;
+	margin-left:10px;
+	background: white;
+	padding:20px;
+
+
+
+}
+
+.container {
+	clear: both;
+	padding-bottom: 100px;
+	margin-left:20px;
+}
+h1{
+	color:#73A1BD ;
+	background: white;
+	border-bottom: solid gray;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size:40px;
+}
+p {
+	padding-top: 10px;
+	text-indent:30px;
+	color: black;
+}
+
+#aside {
+
+	float:right;
+	width: 200px;
+	height: 202px;
+	padding: 20px;
+	background: white;
+	padding-bottom: 5px;
+	
+}
+h2{
+	border-bottom: solid gray;
+	font-size: 22px;
+	text-align: center;
+	color:#73A1BD ;
+}
+.logo1, .logo2, .logo3 {
+	width: 62px;
+	height: 62px;
+	padding-top: 10px;
+}
+
+/*PORTFOLIO*/
+
+.portfolio {
+	width: 200px;
+	height: 250px;
+	padding:20px;
+	float: left;
+
+	
+
+}
+
+#portfolio {
+	width: 650px;
+	height: 680px;
+	
+	float: left;
+	margin-left:20px;
+	background: white;
+	padding:20px;
+
+
+
+}
+
+.image {
+	position: relative;
+	float: left;
+	margin: 15px 13px 20px 20px;
+	
+	
+}
+
+.image h3{
+	position: absolute;
+	bottom:30px;
+	padding: 10px 60px 10px 50px;
+	background: #73A1BD;
+	color:white;
+	width: 90px;
+	margin-left:20px;
+	text-align: center;
+}
+
+footer{
+	
+	position: relative;
+	clear:both;
+	
+	background-color: white;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	width: 100%;
+	bottom: -40px;
+}
+
+.footer {
+	width: 100%;
+	bottom: 20px;
+	clear: both;
+	
+
+}
+}
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*Contact Page*/
+
+.label {
+	
+	padding-top: 30px;
+	font-size: 25px;
+	color: #73A1BD;
+	display: block;
+
+
+	
+}
+
+.input {
+	width: 100%;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	border-radius: 4px;
+	resize: vertical;
+	height: 30px;
+	font-size: 16px;
+	display: block;
+}
+.message {
+	
+	height: 120px;
+	resize: auto;
+}
+
+#submit {
+	margin-top: 10px;
+	padding: 5px 10px;
+	background-color:#73A1BD;
+	border-radius: 4px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	
+}
+
+//Media Queries 
+
+@media screen and (max-width: 980px) {
+
+	.header {
+		width: 100%;
+	}
+
+	.nav {
+		width: 75%;
+	}
+
+	.aboutme {
+		width: 60%;
+	}
+
+	#aside {
+		width: 35%;
+	}
+
+	#profilepic {
+		display: block;
+		clear: both;
+		margin: 0 auto;
+	}
+
+
+	p {
+		display: block;
+		clear: both;
+	}
+
+
+
+	#portfolio {
+		clear: both;
+		float: left;
+		box-sizing: border-box;
+		overflow: auto;
+	}
+}
+/* Tablet screen */
+
+@media screen and (max-width: 768px) {
+	.profilename {
+		width: 60%;
+	
+	}
+
+	.nav { 
+		width: 57%;
+	clear: both;
+	float: left;
+	margin-top: 20px;
+
+
+	}
+
+	.aboutme {
+		width: 60%;
+		overflow: auto;
+		box-sizing: border-box;
+		margin-top: 20px;
+	}
+
+
+	#aside {
+		margin-top: 10px;
+		clear: both;
+		overflow: auto;
+		width: 56%;
+		float: left;
+
+		margin-left: 10px;
+	}
+
+	#portfolio {
+		width: 60%;
+		overflow: auto;
+		box-sizing: border-box;
+		margin-top: 20px;
+	}
+	.footer {
+		width: 62%;
+	}
+}
+
+/* Landscape phone */
+
+@media screen and (max-width: 640px) {
+
+	.profilename {
+		width: 40%;
+	
+	}
+
+	.nav { 
+		width: 30%;
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	}
+
+	.aboutme {
+		width: 35%;
+		overflow: auto;
+		box-sizing: border-box;
+		margin-top: 20px;
+		clear: both;
+	}
+
+
+	#aside {
+		margin-top: 10px;
+		clear: both;
+		overflow: auto;
+		width: 32%;
+		float: left;
+
+		margin-left: 10px;
+	}
+
+#portfolio {
+		width: 40%;
+		overflow: auto;
+		box-sizing: border-box;
+		margin-top: 20px;
+
+	}
+	.footer {
+		width: 38%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
